@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <!-- <li>
+                <a href="#contact">Contact</a>
+            </li> -->
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Volodymyr Demchynskyi</h1>
+            <h2>AI - Machine Learning Engineer</h2>
+            <h2>Full Stack Developer</h2>
+            <a href="./Demchynskyi_Resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size: 17px;">
+                        I am a highly skilled machine learning engineer with over 7 years of experience. With a
+                        strong background as a machine learning engineer and data scientist, my expertise lies in
+                        Natural Language Processing and Computer Vision.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="March 2021 – October 2024">
+                <h3>Skillz</h3>
+                <h4>Senior Data Scientist</h4>
+                <p>
+                    ● Built the Matchmaking Simulator engine by building an AI player model (combining
+                    multiple behavioral ML models) and replicating the production matchmaking engine in
+                    Python to allow for fast experimentation. The engine is still in use.<br />
+                    ● Improved the matchmaking engine and developed new algorithms using the simulator,
+                    leading to a D30 retention lift of 33% and a D30 revenue lift of 11%. Led inter-team
+                    efforts to deploy, monitor impact, and scale developed features.<br />
+                    ● Built a conversion ML model and integrated it as a component of the Matchmaking
+                    Simulator, allowing for experimentation on how the company can drive the conversion
+                    rate.<br />
+                    ● Operationalized the churn prediction model using AWS, Docker, Kubernetes, GitHub
+                    Actions, MLflow, Airflow, and Snowflake.<br />
+                    ● Researched industry-standard solutions, built a simulation framework, selected the
+                    most viable solution, and implemented production-ready code, allowing for efficient
+                    rating updates for multiplayer games.<br />
+                    ● Owned matchmaking, offering advice and answering questions of leadership and
+                    business stakeholders. Led experimentation and analytics matchmaking efforts.
+                    Cooperated with engineering, analytics, and product organizations.<br />
+                    ● Planned and supervised the work of a junior team member.<br />
+                </p>
+            </div>
+
+            <div data-date="October 2018 – February 2021">
+                <h3>BP</h3>
+                <h4>Senior Machine Learning Engineer</h4>
+                <p>
+                    ● Designed and built the cloud architecture for the data analysis platform for
+                    development and production in the Azure cloud.<br />
+                    ● Used platforms and tools like ADF, Azure Data Lake, Azure Databricks, Azure DevOps,
+                    Azure Key Vault, Delta Lake, MLflow, Azure Machine Learning, Azure Kubernetes
+                    Service, Azure Synapse Analytics, and Power BI.<br />
+                    ● Preprocessed, cleaned, and identified outliers in the training data for further
+                    examination with the business. Some example techniques used are DBSCAN and
+                    Isolation Forest.<br />
+                    ● Built the DNN regression model for the forecasting cost of oil drilling-related activities
+                    based on historical data. Used PyTorch and PyTorch Lightning.<br />
+                    ● Conducted experiments and statistical tests like analysis of variance (ANOVA) and
+                    applied AI solutions.<br />
+                    ● Managed cloud automation of the labor and overhead of the cost forecasting process,
+                    previously done manually in Excel sheets by analysts.<br />
+                    ● Administrated the Databricks cloud data analysis platform. Built and optimized existing
+                    ETL pipelines using PySpark. Introduced production monitoring with Azure application
+                    insights into the project.<br />
+                    ● Maintained and developed the time series forecasting library. Managed the production
+                    submission of the quarterly cost forecasts, decreasing the running time of the quarterly
+                    forecast 14 times utilizing multiprocessing.<br />
+                    ● Built and deployed the web API using FastAPI, Docker, and Azure Web App to
+                    implement time series models to make them accessible for non-data scientists within
+                    the company. Built the Power BI report showcasing the usage of the API.<br />
+                    ● Created the auto-deployment pipeline for the newest version of the internal time series
+                    forecasting library into the Spark cluster. Built the CI pipeline on Azure DevOps,
+                    running code quality checks and unit tests with training for the team.<br />
+                </p>
+            </div>
+
+            <div data-date="November 2015 – August 2018">
+                <h3>Infosys</h3>
+                <h4>Full-Stack Developer</h4>
+                <p>
+                    ● Handled marketing using Dash technology and developed and deployed a business
+                    intelligence dashboard for the FMCG industry recommendation system to help
+                    marketing teams better understand and target their customers.<br />
+                    ● Managed a banking supply chain analysis. Given internal bank transaction data, I
+                    developed a solution for analyzing the impact of the default of some business entities
+                    on other businesses.<br />
+                    ● Led a PoC project for an academic institution that turned into a long-term engagement,
+                    aiming to answer questions in the natural language using a knowledge graph. The
+                    solution utilized built intent classification and named entity recognition (NER).<br />
+                    ● Spearheaded an unstructured data insights project. Its goal was to get insights about
+                    unstructured raw text data using techniques models like topic modeling (LDA) and
+                    sentiment analysis (BERT).<br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Vinnytsia National Technical University</h3>
+            <span class="education-date">2010 - 2014</span>
+            <h4>Bachelor’s degree in Computer Science</h4>
+            <h3>Vinnytsia National Technical University</h3>
+            <span class="education-date">2014 - 2015</span>
+            <h4>Master’s degree in Data Science</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <!-- <div class="education-block">
+            <h3>University of Ottawa</h3>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+            </ul>
+        </div> -->
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/portfolio/about2.gif" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Product Recommendation Engine(ML)</h3>
+                        <p>
+                            A collaborative product recommendation engine that uses data from an e-commerce store to
+                            make similar product suggestions based on the selected item. This is performed through
+                            community detection using Louvain clustering. A Flask API has been used to create the user
+                            interface and Gephi visualisations have been included to analyse the detected communities.
+                        </p>
+                        <!-- <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/portfolio/covid1.jpg" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Better Health Hackathon on CodeforCovid19</h3>
+                        <p>
+                            The application addresses the shortage of RT-PCR testing kits by providing rapid and
+                            reliable AI screening, improving productivity for health professionals and aiding in remote
+                            areas with limited specialized physicians. It uses a deep convolutional neural network (DNN)
+                            to classify images as either normal, pneumonia, or COVID-19, with high accuracy rates of
+                            93.3% for X-rays and 99.1% for CT scans. Data augmentation techniques and a ResNet
+                            architecture with lightweight PEPX design patterns enhance model performance. Additionally,
+                            the tool provides activation maps to help users visualize chest abnormalities like
+                            consolidation or ground-glass opacities.
+                        </p>
+                        <!-- <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/portfolio/face.png" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>OpenCV Face Recognition</h3>
+                        <p>
+                            This project provides step-by-step instructions for face detection and recognition,
+                            leveraging pre-trained models and custom datasets to perform accurate identification in real
+                            time.
+                        </p>
+                        <!-- <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/portfolio/disease1.png" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Disease Prediction Using ML</h3>
+                        <p>
+                            The primary objective of our project is to identify the disease term using the user's or
+                            patient's symptom data. This project suggests an automated disease prediction system that
+                            depends on user input to reduce the time and cost necessary for the first phase of
+                            diagnosing symptoms. After receiving user input, the system generates a list of likely
+                            ailments.
+                        </p>
+                        <!-- <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/portfolio/demo1.gif" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>FORECASTING</h3>
+                        <p>
+                            Forecasting is a forest fire management tool that provides vital information to aid fire
+                            fighting resource allocation. The Forestcasing tool consists of a machine learning model
+                            that calculates the probability a forest fire could occur in a given area, and a
+                            mathematical damage algorithm that estimates the severity of damages caused by said fire.
+                            Forecasting's results give forest fire managers the tools and data required to take
+                            appropriate precautions.
+                        </p>
+                        <!-- <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/portfolio/reactor2.jpg" Class="myImage" style="width: 300px;" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>ReActor Portable</h3>
+                        <p>
+                            This software is meant to be a productive contribution to the rapidly growing AI-generated
+                            media industry. It will help artists with tasks such as animating a custom character or
+                            using the character as a model for clothing etc.
+                        </p>
+                        <!-- <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project0.png" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Game with Generative AI</h3>
+                        <p>
+                            Developed a game with content created by generative AI (poems and game images). The game is
+                            featured in the Museum of AI ("Love is like a foot on the beach" by Bot Poets Society 2021;
+                            AI-generated poem).
+                        </p>
+                        <a href="https://museumof.ai/collection/#bot-poets-14675" target="_blank">View Blog</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project1.png" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Intelligent trading bot</h3>
+                        <p>
+                            The project is aimed at developing an intelligent trading bot for automated trading
+                            cryptocurrencies using state-of-the-art machine learning (ML) algorithms and feature
+                            engineering.
+                        </p>
+                        <a href="https://t.me/intelligent_trading_signals" target="_blank">View Telegram</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project2.png" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Motorola Next.js E-commerce Platform</h3>
+                        <p>
+                            As a full-stack developer, I was responsible for building a comprehensive e-commerce
+                            platform for Motorola using Next.js, a popular React framework. The primary goal of this
+                            project was to create a fast, responsive, and user-friendly online shopping experience that
+                            would drive increased sales and customer engagement for Motorola's diverse product line.
+                        </p>
+                        <a href="https://motorola.com/" target="_blank">View Site</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project3.png" Class="myImage" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>MYOB Business API Integration Platform</h3>
+                        <p>
+                            As a Django developer, I was tasked with creating a comprehensive integration platform that
+                            allows businesses to seamlessly connect their MYOB Business accounting software with various
+                            third-party applications and services. The goal of this project was to provide a
+                            user-friendly and scalable solution that simplifies the integration process, enabling
+                            businesses to maximize the value of their MYOB data and streamline their operations.
+                        </p>
+                        <a href="https://developer.myob.com/" target="_blank">View Site</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project4.png" Class="myImage" />
+
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>WebWave Community Platform</h3>
+                        <p>
+                            The impact of this project has been significant. The WebWave Community Platform has
+                            successfully fostered a thriving and engaged user community, leading to increased product
+                            adoption, improved user satisfaction, and a more responsive and user-centric development
+                            process.
+                        </p>
+                        <a href="https://webwaveme.userecho.com/" target="_blank">View Site</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                    class="icon" />Python</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+                    class="icon" />PyTorch</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"
+                    class="icon" />PyCharm</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+                    class="icon" />Pandas</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+                    class="icon" />TensorFlow</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg"
+                    class="icon" />Keras</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+                    class="icon" />numpy</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                    class="icon" />SQL</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+                    class="icon" />flask</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg"
+                    class="icon" />Go</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" class="icon" />R
+            </li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact" style="height: 1px;">
+        <!-- <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/deleonjohn383@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div> -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2024</span> Volodymyr Demchynskyi
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <!-- <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.discord.com/" target="_blank"><i class="fa fa-discord"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script>
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("img01");
+        var span = document.getElementsByClassName("close")[0];
+
+        // Get all images with the class 'myImage'
+        var images = document.getElementsByClassName("myImage");
+
+        // Add click event to each image
+        for (var i = 0; i < images.length; i++) {
+            images[i].onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Close modal on ESC key press
+        window.onkeydown = function (event) {
+            if (event.key === "Escape") {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
